@@ -21,4 +21,8 @@ func main() {
 	var numTwo uint8 = 255 // uint8 is a type of integer that can store values from 0 to 255
 	fmt.Println(numOne, numTwo)
 
+	var scoreOne float32 = -1.5                          // float32 is a type of float that can store values from -3.4e38 to 3.4e38
+	var scoreTwo float64 = 6516848616164864484894461.584 // float64 is a type of float that can store values from -1.7e308 to 1.7e308
+	fmt.Println(scoreOne, scoreTwo)
+
 }
